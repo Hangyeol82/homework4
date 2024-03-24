@@ -7,7 +7,7 @@ int main()
     int *plist[5];
     list[0] = 10;
     list[1] = 11;
-    plist[0] = (int*)malloc(sizeof(int));   
+    plist[0] = (int*)malloc(sizeof(int));       // plist의 0번째 인덱스에 int형 크기만큼 동적 할당
     printf("list[0] \t= %d\n", list[0]);        // list의 0번째 인덱스에 저장된 값 출력
     printf("list \t\t= %p\n", list);            // list의 주소 출력
     printf("&list[0] \t= %p\n", &list[0]);      // list의 0번째 인덱스의 주소 출력
