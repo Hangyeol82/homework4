@@ -27,7 +27,7 @@ int main()
     printf("\nst3.lastName = %c\n", st3.lastName);
     printf("st3.studentId = %d\n", st3.studentId);
     printf("st3.grade = %c\n", st3.grade);
-    if (st3.lastName == st2.lastName && st3.studentId == st2.studentId && st3.grade == st2.grade) // 구조체 변수의 값이 같은지 하나하나 비교를 해야한다
+    if (st3.lastName == st2.lastName && st3.studentId == st2.studentId && st3.grade == st2.grade) // 구조체 변수의 값이 같은지 하나하나 비교를 해야한다.
         printf("equal\n");
     else
         printf("not equal\n");

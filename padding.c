@@ -13,4 +13,4 @@ int main()
     printf("size of int = %ld\n", sizeof(int));                     // int형은 4바이트
     printf("size of short = %ld\n", sizeof(short));                 // short형은 2바이트
     return 0;
-}
+}s
